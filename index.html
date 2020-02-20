@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+	
+	<style>
+		.cities {
+		background-color: black;
+		color: white;
+		margin: 20px;
+		padding: 20px;
+		}	
+	</style>
+	
+  </head>
+  
+  <body>
+	<div class="titulo-principal">
+	<h1>HOLA Mundo</h1>
+	<p>probando subtítulo</p>
+	<button onclick="busquedaPrimera(escudos)">Presionar</button>
+	</div>
+	
+	<div id="resultadoBusqueda" >
+		
+	</div>
+	
+	<div id="objetos" class="" style="display: none">
+		<div id="escudos">
+			<div id="esc01"> Escudo Pequeño
+				<li id="nombre" style="display: none">Escudo Pequeño</li>
+				<li id="nombreIngles">Small Shield</li>
+				<li id="atributo">concede +1 a la CA.</li>
+				<li id="tipo">escudo pequeño.</li>
+				<li id="localizacion">ubicuo (BG 1 y BG 2).</li>
+				<li id="momento">capítulos 1, 2, 3, 4, 5, 6 y 7 (BG 1); capítulos 1, 2, 3, 4, 5, 6, 8 y 9 (BG 2).</li>
+				<li id="permitido">Permitido a: guerrero, explorador, paladín, bárbaro y clérigo.</li>
+				<li id="codigo">SHLD01, SHLD11 o SHLD12.</li>
+				<li id="descripcion">El escudo pequeño suele ser redondo y se lleva en el antebrazo, empuñado con la mano del escudo. Su ligero peso en proporción con el escudo mediano permite llevar otros elementos con esa mano, aunque no se puede empuñar ni llevar ninguna otra arma.</li>
+				<li id="opinion">El escudo pequeño es algo mejor que la rodela, pero salvo por el peso, son mejores el escudo mediano y el escudo grande.</li>
+				<li id="nivelEnc" style="display: none">0</li>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		function busquedaPrimera(nombreDiv) {
+			alert("entró");
+			document.getElementById("resultadoBusqueda").innerHTML =  document.getElementById("esc01").innerHTML;
+		}
+	</script>
+  </body>
+</html>
