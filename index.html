@@ -21,7 +21,7 @@
   
   <body>
 	<div class="titulo-principal">
-	<h1>HOLA Mundo</h1>
+	<h1>Guía de Objetos</h1>
 	<p>probando subtítulo</p>
 	<button onclick="busquedaPrimera(escudos)">Presionar</button>
 	</div>
@@ -32,13 +32,15 @@
 	
 	<div id="objetos" class="" style="display: none">
 		<div id="escudos">
-			<ul id="esc01"><p> <b>Escudo Pequeño</b>
+			<ul id="esc01"><p> <img src="imagenes/SHLD01.gif"><b>Escudo Pequeño</b>
 				<li id="nombre" style="display: none">Escudo Pequeño</li>
 				<li id="nombreIngles"><b>Nombre en Inglés:</b> Small Shield</li>
 				<li id="atributo"><b>Atributos:</b> concede +1 a la CA.</li>
 				<li id="tipo"><b>Tipo:</b> escudo pequeño.</li>
 				<li id="localizacion"><b>Localización:</b> ubicuo (BG 1 y BG 2).</li>
 				<li id="momento"><b>Momento:</b> capítulos 1, 2, 3, 4, 5, 6 y 7 (BG 1); capítulos 1, 2, 3, 4, 5, 6, 8 y 9 (BG 2).</li>
+				<li id="requisito"><b>Requisitos: </b> fuerza 4.
+				<li id='peso'><b>Peso: </b>3 lbs.
 				<li id="permitido"><b>Permitido a:</b> guerrero, explorador, paladín, bárbaro y clérigo.</li>
 				<li id="codigo"><b>Código:</b> SHLD01, SHLD11 o SHLD12.</li>
 				<li id="descripcion"><b>Descripción:</b> El escudo pequeño suele ser redondo y se lleva en el antebrazo, empuñado con la mano del escudo. Su ligero peso en proporción con el escudo mediano permite llevar otros elementos con esa mano, aunque no se puede empuñar ni llevar ninguna otra arma.</li>
@@ -54,6 +56,8 @@
 				<li id="tipo"><b>Tipo:</b> escudo pequeño.</li>
 				<li id="localizacion"><b>Localización:</b> vendido en la Fragua del Martillo Atronador en Beregost, en uno de los contenedores en la armería del tercer nivel de las minas del Bosque de las Capas, en uno de los contenedores en una casa en el área norte de Puerta de Baldur, en posesión de Laryssa al este del mapa dos veces al norte del baluarte gnoll (BG 1); en uno de los contenedores en el segundo nivel del sótano de la Torre de Durlag (TotSC); ubicuo (BG 2).</li>
 				<li id="momento"><b>Momento:</b> capítulos 1, 2, 3, 4, 5, 6 y 7 (BG 1); capítulos 1, 2, 3, 4, 5, 6, 8 y 9 (BG 2).</li>
+				<li id="requisito"><b>Requisitos: </b> fuerza 4.
+				<li id='peso'><b>Peso: </b>3 lbs.
 				<li id="permitido"><b>Permitido a:</b> guerrero, explorador, paladín, bárbaro y clérigo.</li>
 				<li id="codigo"><b>Código:</b> SHLD02.</li>
 				<li id="descripcion"><b>Descripción:</b> El escudo pequeño suele ser redondo y se lleva en el antebrazo, empuñado con la mano del escudo. Su ligero peso en proporción con el escudo mediano permite llevar otros elementos con esa mano, aunque no se puede empuñar ni llevar ninguna otra arma.</li>
@@ -67,7 +71,7 @@
 	
 	<script>
 		function busquedaPrimera(nombreDiv) {
-			alert("entró");
+			
 			document.getElementById("resultadoBusqueda").innerHTML =  document.getElementById("escudos").innerHTML;
 		}
 	</script>
