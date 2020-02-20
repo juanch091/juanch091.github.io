@@ -32,26 +32,43 @@
 	
 	<div id="objetos" class="" style="display: none">
 		<div id="escudos">
-			<div id="esc01"> Escudo Pequeño
+			<ul id="esc01"><p> <b>Escudo Pequeño</b>
 				<li id="nombre" style="display: none">Escudo Pequeño</li>
-				<li id="nombreIngles">Small Shield</li>
-				<li id="atributo">concede +1 a la CA.</li>
-				<li id="tipo">escudo pequeño.</li>
-				<li id="localizacion">ubicuo (BG 1 y BG 2).</li>
-				<li id="momento">capítulos 1, 2, 3, 4, 5, 6 y 7 (BG 1); capítulos 1, 2, 3, 4, 5, 6, 8 y 9 (BG 2).</li>
-				<li id="permitido">Permitido a: guerrero, explorador, paladín, bárbaro y clérigo.</li>
-				<li id="codigo">SHLD01, SHLD11 o SHLD12.</li>
-				<li id="descripcion">El escudo pequeño suele ser redondo y se lleva en el antebrazo, empuñado con la mano del escudo. Su ligero peso en proporción con el escudo mediano permite llevar otros elementos con esa mano, aunque no se puede empuñar ni llevar ninguna otra arma.</li>
-				<li id="opinion">El escudo pequeño es algo mejor que la rodela, pero salvo por el peso, son mejores el escudo mediano y el escudo grande.</li>
+				<li id="nombreIngles"><b>Nombre en Inglés:</b> Small Shield</li>
+				<li id="atributo"><b>Atributos:</b> concede +1 a la CA.</li>
+				<li id="tipo"><b>Tipo:</b> escudo pequeño.</li>
+				<li id="localizacion"><b>Localización:</b> ubicuo (BG 1 y BG 2).</li>
+				<li id="momento"><b>Momento:</b> capítulos 1, 2, 3, 4, 5, 6 y 7 (BG 1); capítulos 1, 2, 3, 4, 5, 6, 8 y 9 (BG 2).</li>
+				<li id="permitido"><b>Permitido a:</b> guerrero, explorador, paladín, bárbaro y clérigo.</li>
+				<li id="codigo"><b>Código:</b> SHLD01, SHLD11 o SHLD12.</li>
+				<li id="descripcion"><b>Descripción:</b> El escudo pequeño suele ser redondo y se lleva en el antebrazo, empuñado con la mano del escudo. Su ligero peso en proporción con el escudo mediano permite llevar otros elementos con esa mano, aunque no se puede empuñar ni llevar ninguna otra arma.</li>
+				<li id="opinion"><b>Opinión de Saemon:</b> El escudo pequeño es algo mejor que la rodela, pero salvo por el peso, son mejores el escudo mediano y el escudo grande.</li>
 				<li id="nivelEnc" style="display: none">0</li>
-			</div>
+				</p>
+				<br>
+			</ul>
+			<ul id="esc02"><p> <b>Escudo Pequeño +1</b>
+				<li id="nombre" style="display: none">Escudo Pequeño +1</li>
+				<li id="nombreIngles"><b>Nombre en Inglés:</b> Small Shield +1</li>
+				<li id="atributo"><b>Atributos:</b> concede +2 a la CA.</li>
+				<li id="tipo"><b>Tipo:</b> escudo pequeño.</li>
+				<li id="localizacion"><b>Localización:</b> vendido en la Fragua del Martillo Atronador en Beregost, en uno de los contenedores en la armería del tercer nivel de las minas del Bosque de las Capas, en uno de los contenedores en una casa en el área norte de Puerta de Baldur, en posesión de Laryssa al este del mapa dos veces al norte del baluarte gnoll (BG 1); en uno de los contenedores en el segundo nivel del sótano de la Torre de Durlag (TotSC); ubicuo (BG 2).</li>
+				<li id="momento"><b>Momento:</b> capítulos 1, 2, 3, 4, 5, 6 y 7 (BG 1); capítulos 1, 2, 3, 4, 5, 6, 8 y 9 (BG 2).</li>
+				<li id="permitido"><b>Permitido a:</b> guerrero, explorador, paladín, bárbaro y clérigo.</li>
+				<li id="codigo"><b>Código:</b> SHLD02.</li>
+				<li id="descripcion"><b>Descripción:</b> El escudo pequeño suele ser redondo y se lleva en el antebrazo, empuñado con la mano del escudo. Su ligero peso en proporción con el escudo mediano permite llevar otros elementos con esa mano, aunque no se puede empuñar ni llevar ninguna otra arma.</li>
+				<li id="opinion"><b>Opinión de Saemon:</b> El escudo pequeño +1 es una leve mejora respecto al escudo pequeño.</li>
+				<li id="nivelEnc" style="display: none">1</li>
+				</p>
+				<b>
+			</ul>
 		</div>
 	</div>
 	
 	<script>
 		function busquedaPrimera(nombreDiv) {
 			alert("entró");
-			document.getElementById("resultadoBusqueda").innerHTML =  document.getElementById("esc01").innerHTML;
+			document.getElementById("resultadoBusqueda").innerHTML =  document.getElementById("escudos").innerHTML;
 		}
 	</script>
   </body>
